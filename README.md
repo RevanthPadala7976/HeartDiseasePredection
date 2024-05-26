@@ -1,4 +1,14 @@
 # HeartDiseasePredection
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn">
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter">
+  <img src="https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white" alt="Anaconda">
+  <img src="https://img.shields.io/badge/Matplotlib-3C5280?style=for-the-badge&logo=matplotlib&logoColor=white" alt="Matplotlib">
+</p>
+
 ## Introduction
 
 This project aims to predict heart disease, a critical health concern affecting millions of people globally. Accurate prediction of heart disease can significantly impact healthcare by enabling early intervention and personalized treatment plans. By leveraging machine learning algorithms, this project seeks to enhance the accuracy of heart disease prediction, aiding medical professionals in their decision-making processes.
@@ -45,11 +55,12 @@ The presence of exercise-induced angina is a significant indicator of heart dise
 
 Built several machine learning models to predict heart disease, including Decision Tree, Random Forest, Support Vector Machine (SVM), and Neural Network. The performance of these models was evaluated using accuracy scores, classification reports, and confusion matrices.
 
-**Decision Tree Classifier:** Achieved 98.54% accuracy.
-**Random Forest Classifier:** Achieved 98.54% accuracy.
-**Naive Bayes:** Achieved 80% accuracy.
-**Support Vector Machine (SVM):** Achieved 98.54% accuracy.
-**Neural Network:** Achieved 72.68% accuracy.
+- **Decision Tree Classifier:** Achieved 98.54% accuracy.
+- **Random Forest Classifier:** Achieved 98.54% accuracy.
+- **Naive Bayes:** Achieved 80% accuracy.
+- **Support Vector Machine (SVM):** Achieved 98.54% accuracy.
+- **Neural Network:** Achieved 72.68% accuracy.
+  
 ### Cross-Validation
 Performed cross-validation to ensure the robustness of the models. The cross_val_score function was used to compute the accuracy, precision, recall, and F1 score across multiple folds.
 
